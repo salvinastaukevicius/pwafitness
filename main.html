@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats page</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+    <script src="http://localhost:5500/viewD.js"></script>
+    <script src="http://localhost:5500/accessToken.js"></script>
+    <script src="http://localhost:5500/millisCalculations.js"></script>
+    <script src="http://localhost:5500/stepData.js"></script>
+    <script src="http://localhost:5500/caloriesData.js"></script>
+    <script src="http://localhost:5500/requestBodies.js"></script>
+    <script src="http://localhost:5500/buttonControl.js"></script>
+    
+    <script src="http://localhost:5500/viewW.js"></script>
+    <script src="http://localhost:5500/viewM.js"></script>
+    <script src="http://localhost:5500/view6M.js"></script>
+    <script src="http://localhost:5500/viewY.js"></script>
+    
+    
+    
+    <link rel="stylesheet" href="/button.css">
+</head>
+
+<body>
+    <section id="dateSelectorSection">
+        <span class="selectorButton selected">D</span>
+        <span class="selectorButton">W</span>
+        <span class="selectorButton">M</span>
+        <span class="selectorButton">6 M</span>
+        <span class="selectorButton">Y</span>
+    </section>
+
+    <section id="totalComponent">
+        <section id="viewD">
+            <span id="total">TOTAL</span>
+            <span id="steps">Fetching your step data</span>
+            <span id="stepsText">steps</span>
+            <span id="today">Today</span>
+        </section>
+
+        <span id="othersteps">!</span>
+        <span id="othersteps1">!</span>
+
+        <!-- <section id="viewAverage">
+            <span id="averageText"></span>
+            <span id="average"></span>
+            <span id="perDay"></span>
+        </section> -->
+    </section>
+
+    <canvas id="myChart" style="width:100%;max-width:900px;height:270px;background-color: rgb(154, 129, 129);"></canvas>
+    <canvas id="chartWeek" style="width:100%;max-width:900px;height:270px;background-color: rgb(154, 129, 129);"></canvas>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
